@@ -10,7 +10,6 @@
         "-Wextra",
         "-Wconversion",
         "-DONLINE_JUDGE",
-        "-O2",
         "-fdiagnostics-color=always",
         "-g",
         "${file}",
