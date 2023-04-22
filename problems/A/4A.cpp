@@ -6,9 +6,9 @@ int main() {
     cin >> w;
 
     if (w % 2 == 0 && w > 2) {
-        cout << "YES\n";
+        cout << "YES" << endl;
     } else {
-        cout << "NO\n";
+        cout << "NO" << endl;
     }
 
     return 0;

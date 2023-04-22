@@ -10,11 +10,11 @@ int main() {
         cin >> word;
 
         if (word.length() <= 10) {
-            cout << word << "\n";
+            cout << word << endl;
             continue;
         }
 
-        cout << word[0] << word.length() - 2 << word.back() << "\n";
+        cout << word[0] << word.length() - 2 << word.back() << endl;
     }
 
     return 0;
