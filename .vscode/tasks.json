@@ -9,12 +9,13 @@
         "-Wall",
         "-Wextra",
         "-Wconversion",
+        "-pedantic",
         "-DONLINE_JUDGE",
         "-fdiagnostics-color=always",
         "-g",
         "${file}",
         "-o",
-        "${fileDirname}/${fileBasenameNoExtension}"
+        "${fileDirname}/main"
       ],
       "options": {
         "cwd": "${fileDirname}"
