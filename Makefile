@@ -31,7 +31,7 @@ set-debug:
 set-release:
     override CFLAGS += -O2
 
-build : $(SRC) $(TARGET)
+build : $(SRC)
 	$(CC) -o $(TARGET) $(SRC) $(CFLAGS)
 
 test : release
