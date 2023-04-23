@@ -35,7 +35,8 @@ TESTS_DIR="$PROBLEM_DIR/tests"
 INPUTS_DIR="$TESTS_DIR/inputs"
 OUTPUTS_DIR="$TESTS_DIR/outputs"
 
-echo "https://codeforces.com/problemset/problem/$CONTEST/$PROBLEM"
+echo "Problem: https://codeforces.com/problemset/problem/$CONTEST/$PROBLEM"
+echo " Status: https://codeforces.com/problemset/status/$CONTEST/problem/$PROBLEM"
 echo ""
 
 for INPUT in ./$INPUTS_DIR/*
