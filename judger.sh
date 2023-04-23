@@ -35,6 +35,9 @@ TESTS_DIR="$PROBLEM_DIR/tests"
 INPUTS_DIR="$TESTS_DIR/inputs"
 OUTPUTS_DIR="$TESTS_DIR/outputs"
 
+echo "https://codeforces.com/problemset/problem/$CONTEST/$PROBLEM"
+echo ""
+
 for INPUT in ./$INPUTS_DIR/*
 do
     TEST="${INPUT##*/}"
